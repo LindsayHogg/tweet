@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  #new routes
+  post 'posts' => 'posts#create'
+  get 'posts' => 'posts#index'
+
+  get 'posts/new'
+
+  get 'users/new'
+
+  get 'users/new'
+
+
   resources :posts
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
