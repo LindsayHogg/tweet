@@ -1,3 +1,21 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$login-w 100px;
+
+.login {
+
+	.email {
+		width: $login-w;
+		$:hover {
+			text-decoration: underline;
+		}
+		}
+		.password {
+			width: $login-w;
+		}
+	}
+}
+
+
